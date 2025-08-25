@@ -6,3 +6,11 @@ few shot prompting
 
 For anomaly detection
 Gemini gem
+
+
+-----------Airflow------
+Dag
+tasks
+operators
+sensor
+variable
