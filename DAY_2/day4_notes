@@ -1,0 +1,36 @@
+#json
+Reading a Json
+and writing into Json
+#pandas
+Series
+DataFrame
+
+#Execption Handling
+1)try..except
+2)try..multiple except blocks
+3)try.multiple except blocks finally
+
+
+try:
+    statement1
+    statement1
+execpt:
+    statement3
+finally:
+    statement4
+statement5
+
+#connecting to DB
+import module
+connection_object=
+cursor
+
+
+pandas
+matplotlib
+sqlalchemy
+command line arguments
+python script.py arg1 ar2
+
+sys
+argv

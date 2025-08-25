@@ -1,0 +1,63 @@
+#File handling
+seek method
+with open ('filename','mode') as myfile:
+
+
+re module
+re.sreach
+re.split
+
+#wild card char  or meta char or anchors
+[0-9] numeric \d
+[a-zA-Z0-9]  \w or \w+
+
+{m}
+
+#functions
+
+Build in
+and user defined
+
+#Defintion
+def fn():
+    pass
+
+ call inf fn()
+
+return  only  give 1 return
+
+scope of variables
+global & local
+global keyword make every variable global
+
+keyword arguments
+using Keywords default is always from right to left
+
+variable  length argument *arg
+formal arguments
+tuple unpacking
+*arg tuple
+**arg dict
+
+#Module
+Any python file can be used as module
+modules contains function,staetments etc
+build in function loc lib folder
+
+pip list|more
+
+import modulename as alias -best practice
+from modulename import propertyname1,propertyname2
+
+second one improves performance
+
+#module check priority current working directory ,lib and site-packages
+
+
+
+
+
+
+
+
+

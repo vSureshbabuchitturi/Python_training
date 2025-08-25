@@ -1,0 +1,5 @@
+{
+  "product": {    "id": "PROD001",    "name": "Laptop",    "price": 1200.00,
+    "details": {      "brand": "TechCo",      "model": "XPS 15",      "storageGB": 512    }
+  }
+}

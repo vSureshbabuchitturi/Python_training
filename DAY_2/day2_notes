@@ -1,0 +1,120 @@
+#collections
+1)List
+collections of any data type
+
+for loop only for iterations
+syntax: for i in mylist:
+one tab
+
+ctl+alt+l -- auto indentation
+append
+Iterable object
+
+extend internally uses for loop so  only accept iterable object
+
+my_list1=my_list will have same address and operation on 1 will effect other as well
+
+so if we dont want we need to copy using
+my_list1=my_list.copy()
+
+my_list.remove(123)
+will remove 123 only first occurrence
+.sort wil permanently stored
+so use sorted function  and store in another variable
+
+2)Tuple
+Immutable
+tuple we define () with comma separated valve
+one comma separated is must
+x=(100) #int
+x1=(11,12) #tuple
+x3=11,12,13 #tuple
+
+3)Dictionary or Hash or Hash map
+
+emp_date=[10,'a',20,'b'] list
+
+emp_date={10:'a',20:'b'} Associative Array (dict)
+Dict is kay pair value
+emp_date={10:['suri','dev'],20:['suren','devops'],30:['suresh','BI'],}
+
+emp_date={10:('suri','dev'),20:['suren','devops'],30:['suresh','BI'],}
+
+we can complete replace tuple in above but cant change value inside
+
+items method in dict
+
+to check if key exists or not is in operator
+
+print(105 in emp_date)
+
+update is used to insert multiple values
+
+
+4)set
+set is collection dataitems
+non duplicates
+un ordered  so non index
+and mutable
+
+#Operators
+1)Arthematic + -*/%** //
+2)relational < > <= => == !=
+3)logical and or not
+4)assignment =
+5.Short hand assignment +=,-+,*=,/=,%= i=1,i+=1
+6.membership in
+7.concatenation +
+8.identity  is
+is whill check address
+
+
+#flow control
+1.simple if
+2.if else
+3.nested if if inside if
+4.ladder if  elif using for menu programimng
+indentation
+
+#loops
+1)while
+while conditoion:
+    ---
+    ---
+---
+
+2)for
+#loop control statement break and continue
+
+#File Handling
+
+open a file
+process a file
+read  r read only default
+write r+ read n write (w & w+)
+append a a+
+rb means read binary
+
+close a file
+
+fo=open('filename.txt','mode')
+fo.close()
+
+fo.read() ===> read as single string
+fo.readlines() ===> reads as lines and store as list
+
+r read as raw text while using paths for files in windows due to \
+
+
+
+
+
+
+
+
+
+
+
+
+
+

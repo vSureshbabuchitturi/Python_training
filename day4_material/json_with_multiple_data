@@ -1,0 +1,45 @@
+"""
+1. What happens if JSON has multiple data?
+
+If the JSON is flat (key–value pairs), Pandas can directly convert it into a DataFrame.
+
+If the JSON is nested or has multiple records, Pandas needs you to tell it how to handle the structure.
+
+
+"""
+json file 
+==========
+[
+  {"Name": "Alice", "Age": 25, "Salary": 50000},
+  {"Name": "Bob", "Age": 30, "Salary": 60000},
+  {"Name": "Charlie", "Age": 35, "Salary": 70000}
+]
+
+python code 
+===========
+import pandas as pd
+
+df = pd.read_json("employees.json")
+print(df)
+
+======================
+But
+======
+#When JSON is nested
+{
+  "employees": [
+    {"Name": "Alice", "Details": {"Age": 25, "Salary": 50000}},
+    {"Name": "Bob", "Details": {"Age": 30, "Salary": 60000}}
+  ]
+}
+
+import pandas as pd
+import json
+
+# Load JSON
+with open("nested.json") as f:
+    data = json.load(f)
+
+# Flatten
+df = pd.json_normalize(data["employees"])
+print(df)

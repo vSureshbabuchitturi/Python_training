@@ -1,0 +1,86 @@
+python to got in interactive mode in terminal
+Ctrl+Z to come out of the interactive mode in terminal
+
+1)Single line Comments #----------
+2)Multiline Comments 
+""" 
+------------
+-----------
+"""
+
+platform Independent , portable
+
+Compiler 
+Does check all code for syntax error and convert into System Understandable
+compilation error --syntax error
+Indentation error come under compilation
+interpreter
+Once Complied this will execute line by line
+run time error / execution error-- can use exception handling
+
+builtins-- every time we execute python builtins is import
+
+to check all the functions import that and check dir(builtins) for builtins
+
+
+pascal case StudentName='Suresh'
+camel case  studentName='Suresh'
+snake case  student_name='Suresh'
+############
+f-string --format string
+
+############
+input
+
+typecasting
+############
+mutable object
+we can change(edit/del/append/insert) the data in the same reference object
+id(mylist)
+dict,list,set
+
+Immutable Object
+
+we can not change(edit/del/append/insert) the data in the same reference object
+int.float,tuple
+############
+go to help prompt type keywords to know keywords and same like any other module
+
+################
+interactive
+import pandas
+dir(pandas)
+help(pandas)
+help(pandas.Dataframe)
+
+use print in IDE
+
+############
+Dynamic conversion while using input with eval
+
+####Quoting Rules##
+''' Not accepted use \to accept
+""" Not Accept use \to accept
+'"' Accept
+'"' Accept
+
+
+##Function or procedure or sub-routines
+
+==>with out class procedure oriented programming
+we can call function directly
+
+functionname()
+
+##Methods
+
+inside  class  staement --oop
+
+can not call directly ,one object statement is  required
+variable.method()
+example x variable  of str type
+
+y=x.split(:)  will split based : delimetr and store as list
+
+
+
