@@ -1,0 +1,68 @@
+git init
+git status
+git add filename
+git add . (---all files)
+
+git commit -m "Mesage"
+
+git log
+
+git diff filename
+
+git checkout filename 
+
+##Used to remove file from Staging Area##
+git rm --chached -r .
+
+
+git branch branchname   -- to create branch
+
+git checkout -b  branchname  -- to switch branches
+
+git branch   --- to list n check in which branch
+
+####Remote Online Push
+
+git remote add origin https://github.com/vSureshbabuchitturi/firstproject.git
+
+git branch -M main
+
+git push -u origin main
+
+
+
+
+#Create Branch
+git checkout -b airflow-day2-update
+
+#open file and edit
+pycharm64.exe airflow/day2
+
+file will open edit and save
+
+#staging
+git add airflow/day2
+#commmit
+git commit -m "Updated airflow/day2 file"
+
+#push
+git push origin airflow-day2-update
+
+
+later merge in ui
+
+git checkout main
+git pull origin main
+git difftool main..airflow-day2-update
+git merge airflow-day2-update
+git push origin main
+
+
+Virtual Env###########
+
+pip install virtualenv 
+
+python -m virtualenv envname
+
+activate
+.\env\Scripts\activate```
