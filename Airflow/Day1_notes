@@ -17,3 +17,10 @@ tasks
 operators
 sensor
 variable
+
+@task
+xcom
+
+function2(functon1())
+
+need of xcom is eliminated in above
